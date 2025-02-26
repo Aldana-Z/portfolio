@@ -829,23 +829,27 @@ p {
     background-repeat: no-repeat;
     border-radius: 10px;
 }
-/* Bouton Showreel */
 .showreel-button {
     display: inline-block;
-    background-color: red;  /* Couleur de fond rouge */
-    color: white;  /* Texte en blanc */
-    padding: 12px 25px;  /* Espacement intérieur */
-    font-size: 18px;
+    background-color: red;
+    color: white;
+    padding: 15px 40px; /* Augmente la taille du bouton */
+    font-size: 20px; /* Agrandit le texte */
     font-weight: bold;
     text-transform: uppercase;
     border: none;
-    border-radius: 5px;  /* Coins arrondis */
+    border-radius: 12px; /* Arrondi plus les coins */
     cursor: pointer;
     transition: transform 0.2s ease-in-out, background-color 0.3s;
+    text-decoration: none; /* Supprime le soulignement */
+    text-align: center;
+    outline: none; /* Évite les contours blancs */
+    box-shadow: none; /* Supprime les ombres éventuelles */
 }
 
 .showreel-button:hover {
-    transform: scale(1.05);  /* Grossissement au survol */
-    background-color: darkred;  /* Rouge plus foncé au survol */
+    transform: scale(1.08); /* Grossissement plus visible */
+    background-color: darkred;
 }
+
 /* Test modification pour GitHub */
