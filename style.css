@@ -829,3 +829,23 @@ p {
     background-repeat: no-repeat;
     border-radius: 10px;
 }
+/* Bouton Showreel */
+.showreel-button {
+    display: inline-block;
+    background-color: red;  /* Couleur de fond rouge */
+    color: white;  /* Texte en blanc */
+    padding: 12px 25px;  /* Espacement intérieur */
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;  /* Coins arrondis */
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.3s;
+}
+
+.showreel-button:hover {
+    transform: scale(1.05);  /* Grossissement au survol */
+    background-color: darkred;  /* Rouge plus foncé au survol */
+}
+/* Test modification pour GitHub */
