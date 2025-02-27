@@ -411,12 +411,17 @@ p {
 
 /* Conteneur de la vidéo */
 #projets .projets-video {
-    width: 100%;
+    width: auto; /* Ajustement automatique */
     max-width: 900px;
     margin: 0 auto;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: none; /* ✅ Supprime le relief */
+    background: none; /* ✅ Supprime tout arrière-plan parasite */
+    display: flex;
+    justify-content: center; /* ✅ Centrage du bouton */
+    align-items: center;
+    padding: 0; /* ✅ Suppression de l'espace autour */
 }
 
 #projets .projets-video video {
